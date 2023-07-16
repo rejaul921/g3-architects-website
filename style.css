@@ -119,3 +119,48 @@ header {
     margin-bottom: -10px;
     margin-left: -10px;
 }
+.fact-des{
+    padding: 50px 220px;
+    text-align: left;
+}
+.fact-data{
+    display: flex;
+    padding: 50px 250px;
+    justify-content: space-between;
+}
+.fact-datas{
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #FF900E;
+}
+.fact-datas>img{
+    width: 20px;
+    height: 20px;
+}.sponsors{
+    text-align: center;
+}
+.our-sponsor{
+    width: 40%;
+    margin: auto;
+}
+.sponsor-list{
+    margin-top: 30px;
+    padding: 10px 180px;
+    display: flex;
+    justify-content: space-between;
+}
+.sponsor-list>img{
+    width: 100px;
+    height: 30px;
+}
+.footer{
+    margin: auto;
+    width: 80%;
+    border-radius: 8px;
+    background: #FFF4E7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    margin-top: 20px;
+}
