@@ -5,7 +5,7 @@
 
 header {
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     background-color: rgba(255, 144, 14, 0.10);
 }
 
@@ -50,7 +50,7 @@ header {
 }
 
 .banner-img {
-    /* position: absolute; */
+    padding-bottom: 20px;
     width: 70%;
     margin: auto;
 }
@@ -80,7 +80,7 @@ header {
 }
 
 .features-img>img {
-    width: 100%;
+    width: 90%;
 }
 
 .feature-description {
@@ -90,7 +90,12 @@ header {
 
 .more-feature {
     display: flex;
-    padding: 50px 200px;
+    padding: 50px 180px;
+    justify-content: space-between;
+} 
+.feature-title{
+    border-left: 2px solid #FF900E;
+    padding-left: 20px;
 }
 
 .more-feature-description {
@@ -99,7 +104,7 @@ header {
 }
 
 .part {
-    margin-top: 50ps;
+    margin-top: 20px;
     padding: 15px;
     border-radius: 8px;
     background: #FFF;
@@ -108,16 +113,19 @@ header {
 .more-feature-img{
     width: 50%;
 }
-.more-img{
-    width: 100%;
-    height: 100%;
+.more-img img{
+    width: 90%;
+    padding-left: 50px;
 }
-.experience{
+.badge{
     padding: 10px;
     background-color: #FF900E;
     color: #FFF;
-    margin-bottom: -10px;
-    margin-left: -10px;
+    width: 120px;
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+    left: 15px;
 }
 .fact-des{
     padding: 50px 220px;
@@ -159,8 +167,16 @@ header {
     border-radius: 8px;
     background: #FFF4E7;
     display: flex;
-    align-items: center;
     justify-content: center;
-    padding: 40px;
+    padding: 30px;
     margin-top: 20px;
+}
+@media screen and(max-width:576p) {
+    .navbar{
+        margin: 0px 20px;
+    }
+    .banner-title{
+        margin: 10px 10px;
+        padding: 0px 5px;
+    }
 }
