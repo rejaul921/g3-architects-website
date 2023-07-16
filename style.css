@@ -1,39 +1,46 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-header{
+
+header {
     width: 100%;
     height: 100vh;
     background-color: rgba(255, 144, 14, 0.10);
 }
-.navbar{
+
+.navbar {
     display: flex;
     justify-content: space-between;
     margin: 0px 240px;
     padding: 20px 0px;
     align-items: center;
 }
-.manus{
+
+.manus {
     display: flex;
     list-style: none;
     gap: 30px;
 }
-.manus a{
+
+.manus a {
     text-decoration: none;
 }
-.manus a:hover{
+
+.manus a:hover {
     background-color: green;
     color: white;
     padding: 5px;
     border-radius: 7px;
 }
-.banner-title{
+
+.banner-title {
     margin: 45px 240px;
     padding: 0px 240px;
     text-align: center;
 }
-.btn{
+
+.btn {
     padding: 10px;
     color: white;
     border-radius: 8px;
@@ -41,12 +48,74 @@ header{
     border: none;
     margin-top: 10px;
 }
-.banner-img{
+
+.banner-img {
     /* position: absolute; */
     width: 70%;
     margin: auto;
 }
-.banner-img img{
+
+.banner-img img {
     width: 100%;
     margin-bottom: 0;
+}
+
+.primary {
+    color: #FF900E;
+}
+
+.feature {
+    display: flex;
+    gap: 50px;
+    /* margin: 50px 250px; */
+    padding: 50px 250px;
+    align-items: center;
+}
+
+.features-img {
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}
+
+.features-img>img {
+    width: 100%;
+}
+
+.feature-description {
+    width: 50%;
+    text-align: left;
+}
+
+.more-feature {
+    display: flex;
+    padding: 50px 200px;
+}
+
+.more-feature-description {
+    text-align: left;
+    width: 50%;
+}
+
+.part {
+    margin-top: 50ps;
+    padding: 15px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+.more-feature-img{
+    width: 50%;
+}
+.more-img{
+    width: 100%;
+    height: 100%;
+}
+.experience{
+    padding: 10px;
+    background-color: #FF900E;
+    color: #FFF;
+    margin-bottom: -10px;
+    margin-left: -10px;
 }
